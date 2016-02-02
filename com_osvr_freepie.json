@@ -1,0 +1,19 @@
+{
+  "deviceVendor": "OSVR",
+  "deviceName": "FreePIE",
+  "author": "Micael Dias <oss@micaeldias.com>",
+  "version": 1,
+  "lastModified": "2016-02-01T00:00:00.000Z",
+  "interfaces": {
+    "tracker": {
+      "count": 1,
+      "position": false,
+      "orientation": true
+    }
+  },
+  "semantic": {
+    "orientation": {
+      "$target": "tracker/0"
+    }
+  }
+}
